@@ -421,19 +421,19 @@ public class logica {
         }
         return ps;
     }
-     public void lista(constructorLibros[] e){
-         String listado="lista de libros "+"\n";
-        for(int i=0;i<e.length;i++){
-            if(nombreUsuario.equalsIgnoreCase(e[i].getNombreAutor())){
-                
-            listado=listado+arreglolibros()[i].getNombreLibro()+"\n";
-                
-              
-                
-               
-            } 
-     }
-        
-        JOptionPane.showMessageDialog(null, listado);
-     }
+//     public void lista(constructorLibros[] e){
+//         String listado="lista de libros "+"\n";
+//        for(int i=0;i<e.length;i++){
+//            if(nombreUsuario.equalsIgnoreCase(e[i].getNombreAutor())){
+//                
+//            listado=listado+arreglolibros()[i].getNombreLibro()+"\n";
+//                
+//              
+//                
+//               
+//            } 
+//     }
+//        
+//        JOptionPane.showMessageDialog(null, listado);
+//     }
 }
